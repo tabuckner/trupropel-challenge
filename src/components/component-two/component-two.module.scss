@@ -1,0 +1,10 @@
+@import '../../variables';
+
+.component-two {
+  padding: 24px 16px;
+  margin-bottom: 16px;
+
+  .text {
+    color: $secondary-color;
+  }
+}

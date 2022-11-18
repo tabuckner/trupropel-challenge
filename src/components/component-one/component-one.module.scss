@@ -1,0 +1,10 @@
+@import '../../variables';
+
+.component-one {
+  padding: 24px 16px;
+  margin-bottom: 16px;
+
+  .text {
+    color: $primary-color;
+  }
+}
