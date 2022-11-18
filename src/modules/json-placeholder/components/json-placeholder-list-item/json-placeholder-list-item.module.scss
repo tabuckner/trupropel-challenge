@@ -1,0 +1,17 @@
+@import "../../../../variables";
+
+.json-placeholder-list-item {
+  padding: 24px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.33);
+  margin-bottom: 8px;
+  background-color: transparentize($color: $secondary-color, $amount: .86);
+  border-radius: 4px;
+
+  .title {
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  .body {
+  }
+}
