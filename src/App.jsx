@@ -1,11 +1,25 @@
+import { createTheme, ThemeProvider } from '@mui/material';
 import './App.scss';
 import MyView from './views/my-view';
 
+const appTheme = createTheme({
+  palette: {
+    primary: {
+      main: '#282c34'
+    },
+    secondary: {
+      main: '#61dafb'
+    },
+  }
+})
+
 function App() {
   return (
-    <div className="App">
-      <MyView />
-    </div>
+    <ThemeProvider theme={appTheme}>
+      <div className="App">
+        <MyView />
+      </div>
+    </ThemeProvider>
   );
 }
 
