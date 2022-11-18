@@ -1,6 +1,6 @@
 import { createTheme, ThemeProvider } from '@mui/material';
 import './App.scss';
-import MyView from './views/my-view';
+import MyView from './views/my-view/my-view';
 
 const appTheme = createTheme({
   palette: {

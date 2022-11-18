@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
-import ComponentOne from "../components/component-one/component-one";
-import ComponentTwo from "../components/component-two/component-two";
+import ComponentOne from "../../components/component-one/component-one";
+import ComponentTwo from "../../components/component-two/component-two";
 
 const MyView = () => {
   return (
